@@ -76,7 +76,8 @@ A bias detection and rewriting system for job descriptions.
 
 - NLP-based bias scoring and classification  
 - FastAPI inference backend  
-- Integrated frontend for real-time bias analysis  
+- Integrated frontend for real-time bias analysis
+- Built in collaboration with Yanzhuo Li
 
 🔗 Repo: https://github.com/liyanzhuo2022/GenderAnalyzer
 
