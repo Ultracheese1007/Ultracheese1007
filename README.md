@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Hi, I'm Xinmei Ma 👋
 
 **Backend & Data-Oriented Software Engineer**
