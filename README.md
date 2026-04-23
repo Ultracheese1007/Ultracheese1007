@@ -20,7 +20,7 @@ A production-style backend system designed for a city review and merchant discov
 - JWT-based authentication with Spring Security  
 - Redis caching to accelerate high-frequency queries  
 - Flyway-based schema versioning for safe database evolution  
-- Containerized deployment with Docker
+- Containerized deployment with Docker and deployed to AWS EC2/RDS with GitHub Actions CI/CD
 
 🔗 Repo: https://github.com/Ultracheese1007/CityFlow
 
