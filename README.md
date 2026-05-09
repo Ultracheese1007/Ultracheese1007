@@ -104,7 +104,7 @@ A collaborative project for checking PC hardware compatibility and recommending 
 **Databases:** MySQL, PostgreSQL, Redis  
 **DevOps:** Docker, GitHub Actions, Nginx  
 **Practices:** OOP, clean architecture, testing, CI/CD  
-**Foundations:** Data structures, algorithms, distributed systems
+**Foundations:** Data structures and algorithms, distributed systems
 
 ---
 
