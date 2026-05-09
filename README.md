@@ -16,11 +16,12 @@ Currently pursuing an MSc in **Data Science & Society** at **Tilburg University*
 
 A production-style backend system designed for a city review and merchant discovery platform.
 
-- Modular service architecture with clear domain separation  
-- JWT-based authentication with Spring Security  
-- Redis caching to accelerate high-frequency queries  
-- Flyway-based schema versioning for safe database evolution  
-- Containerized deployment with Docker and deployed to AWS EC2/RDS with GitHub Actions CI/CD
+- Modular Spring Boot microservices architecture with clear domain separation
+- Kafka-based event-driven communication for asynchronous service decoupling
+- Flyway-based schema versioning for safe database evolution
+- JWT-based authentication and API security with Spring Security
+- Redis caching and Redisson distributed locking for high-frequency and concurrent request handling
+- Docker containerization with GitHub Actions CI/CD pipeline setup
 
 🔗 Repo: https://github.com/Ultracheese1007/CityFlow
 
