@@ -12,11 +12,11 @@ Currently pursuing an MSc in **Data Science & Society** at **Tilburg University*
 ## 🚀 Featured Projects
 
 ### ⭐ CityFlow — Modular Backend System for City Review Platform
-**Java · Spring Boot · JPA · Flyway · Redis · Docker · Nginx**
+**Java · Spring Boot · Kafka · JPA · Flyway · Redis · Docker · Nginx**
 
 A production-style backend system designed for a city review and merchant discovery platform.
 
-- Modular Spring Boot microservices architecture with clear domain separation
+- Modular Spring Boot architecture with clear domain separation
 - Kafka-based event-driven communication for asynchronous service decoupling
 - Flyway-based schema versioning for safe database evolution
 - JWT-based authentication and API security with Spring Security
