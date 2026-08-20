@@ -10,22 +10,6 @@ MSc graduate in **Data Science & Society** from **Tilburg University**, with a s
 
 ## 🚀 Featured Projects
 
-### ⭐ FleetFlow — Reactive Delivery-Tracking Backend
-**Java 21 · Spring Boot 3 · Spring WebFlux · Project Reactor · R2DBC · Kafka · Server-Sent Events**
-
-An event-driven backend that tracks an order through its delivery lifecycle and streams status updates to clients in real time. Built to explore reactive, non-blocking backend design end to end.
-
-- Fully non-blocking request path: WebFlux on the web layer, R2DBC (not JDBC) for PostgreSQL access
-- Order placement publishes to a Kafka topic; a delivery simulator consumes it and emits stage updates (`RECEIVED → PICKING → OUT_FOR_DELIVERY → DELIVERED`) back through Kafka
-- A Kafka listener bridges into a Reactor `Sink`, which fans events out to every connected client over **Server-Sent Events**
-- Live delivery events are also folded back into the persisted order status, so the current state survives after the stream ends
-- New SSE subscribers first receive the order's current state, then stay open for live updates
-- Backpressure handled with a multicast sink + `onBackpressureBuffer`; covered by unit tests for the service and status-mapping logic
-
-🔗 Repo: https://github.com/Ultracheese1007/fleetflow
-
----
-
 ### ⭐ CityFlow — Modular Backend System for City Review Platform
 **Java · Spring Boot · Kafka · JPA · Flyway · Redis · Docker · Nginx**
 
