@@ -5,8 +5,7 @@
 Java · Spring Boot · SQL · Distributed Systems · DevOps
 
 I build clean, reliable backend systems with a strong focus on modular design, data consistency, and production-ready engineering practices.  
-Currently pursuing an MSc in **Data Science & Society** at **Tilburg University**, with a strong interest in **software engineering and backend development**.
-
+MSc graduate in **Data Science & Society** from **Tilburg University**, with a strong technical focus on **software engineering, backend development, and data engineering**.
 ---
 
 ## 🚀 Featured Projects
